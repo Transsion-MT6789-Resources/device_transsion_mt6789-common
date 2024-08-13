@@ -120,6 +120,10 @@ PRODUCT_PACKAGES += \
     multi_init.rc \
     ueventd.mt6789.rc
 
+# Net
+PRODUCT_PACKAGES += \
+    libpcap.vendor
+
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
