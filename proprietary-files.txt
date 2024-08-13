@@ -288,17 +288,9 @@ system_ext/lib64/vendor.mediatek.hardware.pq@2.6.so
 system_ext/lib64/vendor.mediatek.hardware.pq@2.7.so
 system_ext/lib64/vendor.mediatek.hardware.pq@2.9.so
 vendor/bin/hw/mt6789/android.hardware.graphics.allocator@4.0-service-mediatek.mt6789:vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
-vendor/bin/hw/android.hardware.graphics.composer@2.1-service
-vendor/bin/hw/android.hardware.graphics.composer@2.3-service
-vendor/bin/hw/android.hardware.graphics.composer@2.4-service
-vendor/bin/hw/android.hardware.memtrack-service.mediatek
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
-vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc
-vendor/etc/init/android.hardware.graphics.composer@2.2-service.rc
-vendor/etc/init/android.hardware.graphics.composer@2.3-service.rc
-vendor/etc/init/android.hardware.graphics.composer@2.4-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
 vendor/lib/egl/mt6789/libGLES_mali.so:vendor/lib/egl/libGLES_mali.so
@@ -949,7 +941,6 @@ vendor/etc/init/lbs_hidl_service.rc
 vendor/etc/init/lights-mtk-default.rc
 vendor/etc/init/loghidlvendorservice.rc
 vendor/etc/init/md_monitor.rc
-vendor/etc/init/memtrack-mediatek.rc
 vendor/etc/init/mtk_agpsd_p.rc
 vendor/etc/init/mtk_pkm_service.rc
 vendor/etc/init/mtklog.rc
@@ -1176,7 +1167,6 @@ vendor/etc/security/cacerts_supl/f336e3d1.0
 -vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml
 -vendor/etc/vintf/manifest/manifest_storage.xml
 -vendor/etc/vintf/manifest/manifest_tneengine.xml
--vendor/etc/vintf/manifest/memtrack-mediatek.xml
 -vendor/etc/vintf/manifest/power-default.xml
 -vendor/etc/vintf/manifest/vendor.fptool.fingerprint-service.xml
 -vendor/etc/vintf/manifest/vendor.mediatek.hardware.paytrigger@1.0-service.xml
