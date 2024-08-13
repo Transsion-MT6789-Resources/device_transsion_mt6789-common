@@ -178,5 +178,10 @@ PRODUCT_SOONG_NAMESPACES += \
 # Updatable APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.3.vendor \
+    android.hardware.usb.gadget@1.1.vendor
+
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/transsion/mt6789-common/mt6789-common-vendor.mk)
