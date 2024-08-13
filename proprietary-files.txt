@@ -246,11 +246,6 @@ vendor/lib64/libbluetooth_audio_session_mediatek.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
-# Boot
-vendor/bin/hw/android.hardware.boot@1.2-service
-vendor/etc/init/android.hardware.boot@1.2-service.rc
-vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml
-
 # Camera
 system_ext/lib64/libarcsoft_frc.so
 vendor/bin/hw/mt6789/camerahalserver
