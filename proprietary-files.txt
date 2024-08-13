@@ -5,8 +5,6 @@ vendor/bin/hw/android.hardware.audio.service.mediatek
 vendor/etc/init/android.hardware.audio.service.mediatek.rc
 vendor/lib/hw/audio.primary.mediatek.so:vendor/lib/hw/audio.primary.mt6789.so
 vendor/lib/hw/audio.r_submix.mediatek.so:vendor/lib/hw/audio.r_submix.mt6789.so
-vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so
 vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.usb.default.so
@@ -14,9 +12,7 @@ vendor/lib/audio_common-aidl-cpp.so
 vendor/lib/audioclient-types-aidl-cpp.so
 vendor/lib/framework-permission-aidl-cpp.so
 vendor/lib/libaedv.so
-vendor/lib/libalsautils.so
 vendor/lib/libaudioclient_aidl_conversion.so
-vendor/lib/libaudiofoundation.so
 vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/libbwc.so
 vendor/lib/libladder.so
@@ -27,8 +23,6 @@ vendor/lib/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib/vendor.mediatek.hardware.audio@7.1.so
 vendor/lib64/hw/audio.primary.mediatek.so:vendor/lib64/hw/audio.primary.mt6789.so
 vendor/lib64/hw/audio.r_submix.mediatek.so:vendor/lib64/hw/audio.r_submix.mt6789.so
-vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so
 vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.usb.default.so
@@ -36,9 +30,7 @@ vendor/lib64/audio_common-aidl-cpp.so
 vendor/lib64/audioclient-types-aidl-cpp.so
 vendor/lib64/framework-permission-aidl-cpp.so
 vendor/lib64/libaedv.so
-vendor/lib64/libalsautils.so
 vendor/lib64/libaudioclient_aidl_conversion.so
-vendor/lib64/libaudiofoundation.so
 vendor/lib64/libaudiotoolkit_vendor.so
 vendor/lib64/libbwc.so
 vendor/lib64/libladder.so
@@ -51,45 +43,12 @@ vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
 # Audio (FX modules)
 vendor/lib/soundfx/libaudiopreprocessing_mtk.so
 vendor/lib/soundfx/libdtsaudio.so
-vendor/lib/soundfx/libdynproc.so
-vendor/lib/soundfx/libhapticgenerator.so
 vendor/lib/libdts-eagle-shared.so
 vendor/lib/libvibrator.so
 vendor/lib64/soundfx/libaudiopreprocessing_mtk.so
 vendor/lib64/soundfx/libdtsaudio.so
-vendor/lib64/soundfx/libdynproc.so
-vendor/lib64/soundfx/libhapticgenerator.so
 vendor/lib64/libdts-eagle-shared.so
 vendor/lib64/libvibrator.so
-
-# Audio configs
-etc/audio_effects.conf
-system_ext/etc/a2dp_audio_policy_configuration.xml
-system_ext/etc/a2dp_in_audio_policy_configuration.xml
-system_ext/etc/audio_policy_configuration.xml
-system_ext/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
-system_ext/etc/audio_policy_configuration_stub.xml
-system_ext/etc/audio_policy_engine_configuration.xml
-system_ext/etc/audio_policy_engine_default_stream_volumes.xml
-system_ext/etc/audio_policy_engine_product_strategies.xml
-system_ext/etc/audio_policy_engine_stream_volumes.xml
-system_ext/etc/audio_policy_volumes.xml
-system_ext/etc/bluetooth_audio_policy_configuration.xml
-system_ext/etc/default_volume_tables.xml
-system_ext/etc/hearing_aid_audio_policy_configuration.xml
-system_ext/etc/r_submix_audio_policy_configuration.xml
-system_ext/etc/usb_audio_policy_configuration.xml
-vendor/etc/a2dp_audio_policy_configuration.xml
-vendor/etc/a2dp_in_audio_policy_configuration.xml
-vendor/etc/audio_effects.xml
-vendor/etc/audio_policy_configuration.xml
-vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
-vendor/etc/audio_policy_volumes.xml
-vendor/etc/bluetooth_audio_policy_configuration.xml
-vendor/etc/bluetooth_offload_audio_policy_configuration.xml
-vendor/etc/default_volume_tables.xml
-vendor/etc/r_submix_audio_policy_configuration.xml
-vendor/etc/usb_audio_policy_configuration.xml
 
 # Audio calibration
 vendor/etc/audio_param/AudioParamOptions_mgvi.xml
@@ -223,21 +182,15 @@ system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 system_ext/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 system_ext/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
-vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so
-vendor/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so
-vendor/lib/hw/audio.bluetooth.default.so
+vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
-vendor/lib/libbluetooth_audio_session.so
 vendor/lib/libbluetooth_audio_session_mediatek.so
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
-vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so
-vendor/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so
-vendor/lib64/hw/audio.bluetooth.default.so
+vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
-vendor/lib64/libbluetooth_audio_session.so
 vendor/lib64/libbluetooth_audio_session_mediatek.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
@@ -1226,7 +1179,6 @@ vendor/etc/throttle.sh
 vendor/etc/tranMagiqueSonMode.dat
 vendor/etc/tran_avb.pubkey
 vendor/etc/ueventd.rc
-vendor/etc/usb_audio_accessory_only_policy_configuration.xml
 vendor/etc/vendor-apns-conf.xml
 vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
