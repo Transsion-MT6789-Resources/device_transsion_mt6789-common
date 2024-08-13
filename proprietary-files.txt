@@ -401,6 +401,8 @@ vendor/lib64/vendor.trustonic.tee@1.1.so
 vendor/bin/hw/android.hardware.gnss-service.mediatek
 vendor/etc/init/android.hardware.gnss-service.mediatek.rc
 vendor/lib/hw/gps.default.so
+vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
+vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
 
 # GNSS configs
