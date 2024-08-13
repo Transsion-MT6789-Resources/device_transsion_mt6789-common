@@ -549,15 +549,9 @@ vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
 vendor/lib/hw/power.default.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
 vendor/lib/libpower_timer.so
-vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
-vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so
-vendor/lib/vendor.mediatek.hardware.mtkpower@1.2.so
 vendor/lib64/hw/power.default.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
 vendor/lib64/libpower_timer.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so
 
 # Radio
 system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so
@@ -1164,9 +1158,6 @@ vendor/etc/mtk_vext_info
 vendor/etc/nnapi_powerhal.json
 vendor/etc/partition_permission.sh
 vendor/etc/pnpmgr.db
-vendor/etc/power_app_cfg.xml
-vendor/etc/powercontable.xml
-vendor/etc/powerscntbl.xml
 vendor/etc/public.libraries.txt
 vendor/etc/resolution_tuner_app_list.xml
 vendor/etc/slp_conf
