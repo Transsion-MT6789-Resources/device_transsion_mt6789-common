@@ -382,17 +382,13 @@ lib/vendor.trustonic.tee@1.0.so
 lib/vendor.trustonic.tee@1.1.so
 lib64/vendor.trustonic.tee@1.0.so
 lib64/vendor.trustonic.tee@1.1.so
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service
 vendor/bin/hw/vendor.trustonic.tee@1.1-service
-vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
 vendor/etc/init/vendor.trustonic.tee@1.1-service.rc
 vendor/lib/hw/libMcGatekeeper.so:vendor/lib/hw/gatekeeper.trustonic.so
 vendor/lib/hw/libSoftGatekeeper.so:vendor/lib/hw/gatekeeper.default.so
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/libMcClient.so
 vendor/lib64/hw/libMcGatekeeper.so:vendor/lib64/hw/gatekeeper.trustonic.so
 vendor/lib64/hw/libSoftGatekeeper.so:vendor/lib64/hw/gatekeeper.default.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/libMcClient.so
 vendor/lib64/vendor.trustonic.tee@1.0.so
 vendor/lib64/vendor.trustonic.tee@1.1.so
