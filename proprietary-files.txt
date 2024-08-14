@@ -195,11 +195,6 @@ vendor/lib64/libbluetooth_audio_session_mediatek.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
-# CAS
-vendor/bin/hw/android.hardware.cas@1.2-service-lazy
-vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc
--vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml
-
 # Display
 lib/vendor.mediatek.hardware.mms@1.0.so
 lib/vendor.mediatek.hardware.mms@1.1.so
