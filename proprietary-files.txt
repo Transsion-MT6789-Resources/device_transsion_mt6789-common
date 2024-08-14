@@ -752,7 +752,6 @@ vendor/bin/rt5512_calibration
 vendor/bin/rttv_v2
 vendor/bin/smartpa_nvtest
 vendor/bin/starter
-vendor/bin/storage_feature_cloudctl
 vendor/bin/stp_dump3
 vendor/bin/stroke
 vendor/bin/testgameserver
@@ -838,7 +837,6 @@ vendor/etc/init/init.pnpmgr.fpsgo.boost.gki.rc
 vendor/etc/init/init.pnpmgr.gki.rc
 vendor/etc/init/init.pnpmgr_game_mode.gki.rc
 vendor/etc/init/init.pnpmgr_game_record.gki.rc
-vendor/etc/init/init.storage_feature_cloudctl.rc
 vendor/etc/init/init.thermal_core.rc
 vendor/etc/init/init.tranlog.rc
 vendor/etc/init/init.tranlogconfig.rc
